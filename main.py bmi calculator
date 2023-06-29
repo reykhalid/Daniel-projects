@@ -1,0 +1,7 @@
+#print body mass index (bmi)with a total number of whole number
+
+height = float(input("enter your height in m: "))
+weight = int(input("enter weight in kg: "))
+bmi = int(weight) / float(height) **2
+bmi_as_int = int(bmi)
+print(bmi_as_int)

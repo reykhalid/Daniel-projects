@@ -1,0 +1,25 @@
+#using elif statement for rollercoaster
+
+print("welcome to the rollercoaster !")
+height = int(input("please enter height in m: "))
+bill = 0
+if height >= 120:
+    print("you can ride the rollercoaster")
+else:
+    print("you need to grow taller")
+age = int(input("what is your age? "))
+if age <= 12:
+    bill = 5
+    print("child ticket is $5")
+elif age <= 18:
+    bill = 15
+    print("youth ticket is $15")
+else:
+    bill = 20
+    print("adult ticket is $20")
+
+picture = input("do you want a picture? Y or N ")
+if picture == "y":
+    bill += 3
+print(f"your final bill is ${bill}")
+
